@@ -1,0 +1,47 @@
+------------------------------ INCIALIZANDO --------------------------------
+- Cria Repositorio local:
+$ git init
+
+- Criando conexão com repositorio remoto:
+$ git remote add origin <link do repositório>
+
+------------------------------ CLONANDO --------------------------------
+
+- Clona master do repositorio remoto:
+$ git clone <link do repositorio>
+
+- Clona branch do repositorio remoto:
+$ git clone --single-branch -b <BranchName> <link do repositório>
+
+------------------------------ PULL --------------------------------
+
+- Realiza pull da branch especificada:
+$ git pull origin <BranchName>
+
+------------------------------ BRANCH CHANGE --------------------------------
+
+- Muda de branch
+$ git checkout <BranchName>
+
+- Cria nova branch e muda de branch
+$ git checkout -b <NewBranch>
+
+------------------------------ CODE & PUSH --------------------------------
+
+- Realizando stage de todas as modificações:
+$ git add .
+
+- Realizando commit das alterações em estado "staged":
+$ git commit -m "mensagem da alteração"
+
+- Realizando push para branch atual:
+$ git push -u origin <BranchName>
+$ git push
+
+------------------------------ MERGE --------------------------------
+
+- Realiza merge da nova branch:
+$ git merge <BranchName>
+
+
+
