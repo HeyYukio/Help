@@ -9,7 +9,3 @@
 2 - Copiando a ssh key:
 
 	$ clip < ~/.ssh/id_rsa.pub
-
-3 - Clonando uma única branch: 
-
-	git clone --single-branch -b branchname git@gitlab.com:HeyYukio/pcs3539.git
