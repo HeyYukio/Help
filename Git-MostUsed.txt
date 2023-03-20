@@ -2,6 +2,9 @@
 - Cria Repositorio local:
 $ git init
 
+-Altera nome da local branch
+$ git branch -M main
+
 - Criando conexão com repositorio remoto:
 $ git remote add origin <link do repositório>
 
@@ -16,7 +19,7 @@ $ git clone --single-branch -b <BranchName> <link do repositório>
 ------------------------------ PULL --------------------------------
 
 - Realiza pull da branch especificada:
-$ git pull origin <BranchName>
+$ git pull origin <BranchName> --rebase
 
 ------------------------------ BRANCH CHANGE --------------------------------
 
@@ -42,6 +45,3 @@ $ git push
 
 - Realiza merge da nova branch:
 $ git merge <BranchName>
-
-
-
